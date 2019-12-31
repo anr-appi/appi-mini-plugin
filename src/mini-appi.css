@@ -1,0 +1,51 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+div.spoiler div.contenuSpoiler {
+  display: none;
+}
+
+.concepts_table tr {
+  height: 25px;
+}
+
+.concepts_table tr:nth-child(even) {
+  background: #CCC;
+}
+
+.concepts_table tr:nth-child(odd) {
+  background: #FFF;
+}
+
+.concepts_table tr.titre_aspect {
+  height: 3em;
+  background: #AAA;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 110%;
+}
+
+.ajout_entree th {
+  padding: 0px 20px 10px 10px;
+  width: 100px;
+  font-weight: 600;
+  font-size: 110%;
+}
+
+.ajout_entree td {
+  padding: 0px 20px 10px 10px;
+}
+
+h2 {
+  margin: 2em 0;
+}
+
+strong {
+  font-size: 115%;
+}
+
+.update-form {
+  width: 377px;
+}
