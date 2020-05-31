@@ -498,6 +498,7 @@ class MiniAppiPlugin {
     }
 
     public function render_shortcode() {
+        ob_start();
         ?>
 
 <script type="text/javascript">
@@ -581,7 +582,8 @@ function ouvrirFermerSpoiler(bouton) {
         }
         $lines [] = '</table>';
 
-        return join('', $lines);
+        echo join('', $lines);
+        return ob_get_clean();
     }
 
     private function header_row($columns) {
